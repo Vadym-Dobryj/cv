@@ -14,7 +14,7 @@ body {
 .my-conteiner {
   display: flex;
   flex-direction: column;
-  padding: 100px 90px;
+  padding: 30px 90px;
 }
 .my-content-title {
   font-style: normal;
@@ -27,7 +27,7 @@ body {
 /* main content section */
 
 .about-me-section {
-  margin: 0 0 40px 0;
+  margin:  0;
 }
 
 .about-me-profession {
@@ -44,7 +44,7 @@ body {
   font-size: 45px;
   line-height: 55px;
   color: #000;
-  margin: 0 0 25px 0;
+  margin:0;
 }
 .about-me-name-discription {
   
@@ -56,29 +56,24 @@ body {
 }
 /* my project section */
 .my-project-section {
-  margin: 0 0 50px 0;
+  margin:  0;
 }
 
 .my-project-list {
-  padding: 0 0 0 17px;
+  padding: 0 ;
+  list-style: none;
 }
 .my-project-item {
   color: #000;
   font-weight: bold;
 }
-.my-project-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
-}
+
 .my-project-text {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
   margin-left: 5px;
 }
 .my-project-bracket {
@@ -148,10 +143,21 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #000;
-  margin-bottom: 10px;
+  
 }
 .my-education-period {
   font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+/* ********rodo******** */
+.footer__rodo {
+  margin-top: 0;
+}
+.rodo__text {
+   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
@@ -261,17 +267,7 @@ body {
   line-height: 24px;
   color: #fff;
 }
-/* ********rodo******** */
-.footer__rodo {
-  margin-top: 50px;
-}
-.rodo__text {
-   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-}
+
 /* *******Hobby****** */
 .hobby__section {
    margin: 50px 0 0 40px;
